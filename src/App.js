@@ -1,12 +1,16 @@
-function App() {
-  return <div>
-    <h1>My Todos</h1>
-    <div>
-      <h2>TITLE</h2>
-      <div><button>Delete</button></div>
+import Todo from "./components/Todo";
 
-    </div>
-  </div>;
+
+
+function App() {
+  return (<div>
+    <h1>My Todos</h1>
+    <Todo text="learn react" />
+    <Todo text="Props today" />
+    <Todo text="I think I got it" />
+
+  </div>
+  );
 
 }
 
